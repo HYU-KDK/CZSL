@@ -523,7 +523,7 @@ if __name__ == "__main__":
                                       split='compositional-split-natural',
                                       open_world=config.open_world)
 
-    soft_embeddings = torch.load(config.soft_embeddings)
+    soft_embeddings = torch.load(config.soft_embeddings, map_location='cpu')
     if 'indices' in soft_embeddings:
         indices = soft_embeddings['indices']
     else:

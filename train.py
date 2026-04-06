@@ -211,6 +211,13 @@ if __name__ == "__main__":
 
     model, optimizer = get_model(train_dataset, config, device)
 
+    model = model.to(device) 
+    
+    # soft_embeddings가 파라미터가 아닌 일반 텐서로 정의되어 넘어가지 않았을 경우를 위한 강제 할당
+    if hasattr(model, 'soft_embeddings'):
+        if isinstance(model.soft_embeddings, torch.Tensor):
+            model.soft_embeddings = model.soft_embeddings.to(device)
+
     print("model dtype", model.dtype)
     print("soft embedding dtype", model.soft_embeddings.dtype)
 

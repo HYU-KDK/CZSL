@@ -724,7 +724,7 @@ if __name__ == "__main__":
     else:
         model, optimizer = get_model(val_dataset, config, device)
 
-        soft_embs = torch.load(config.soft_embeddings)['soft_embeddings']
+        soft_embs = torch.load(config.soft_embeddings, map_location='cpu')['soft_embeddings']
         model.set_soft_embeddings(soft_embs)
         val_text_rep = compute_representations(
             model, val_dataset, config, device)

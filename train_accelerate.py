@@ -208,9 +208,10 @@ if __name__ == "__main__":
     if accelerator.is_local_main_process:
         pprint.pprint(config)
 
-    if accelerator.is_local_main_process and os.path.exists(config.save_path):
-        accelerator.print('file already exists')
-        accelerator.print('exiting!')
+    if os.path.exists(config.save_path):
+        if accelerator.is_local_main_process:
+            accelerator.print('file already exists')
+            accelerator.print('exiting!')
         exit(0)
 
     # This should work for mit-states, ut-zappos, and maybe c-gqa.
@@ -220,6 +221,13 @@ if __name__ == "__main__":
                                        split='compositional-split-natural')
 
     model, optimizer = get_model(train_dataset, config, accelerator.device)
+
+    model = model.to(accelerator.device)
+
+    # soft_embeddings가 파라미터가 아닌 일반 텐서로 정의되어 넘어가지 않았을 경우를 위한 강제 할당
+    if hasattr(model, 'soft_embeddings'):
+        if isinstance(model.soft_embeddings, torch.Tensor):
+            model.soft_embeddings = model.soft_embeddings.to(accelerator.device)
 
     accelerator.print("model dtype", model.dtype)
     unwrapped_model = accelerator.unwrap_model(model)

@@ -378,7 +378,7 @@ def main():
 
     elif config.experiment_name == 'czsl':
         model = get_custom_czsl(test_dataset, config, device)
-        soft_embs = torch.load(config.soft_embeddings)['soft_embeddings']
+        soft_embs = torch.load(config.soft_embeddings, map_location='cpu')['soft_embeddings']
         model.set_soft_embeddings(soft_embs)
 
     elif config.experiment_name == 'coop':
