@@ -50,7 +50,7 @@ The best hyperparameters are included in the paper.
 To run the training across multiple GPUs using Hugging Face's `accelerate` library, ensure you have initialized your environment with `conda activate CZSL` (or your preferred environment). Then use the `accelerate launch` command with the new `train_accelerate.py` script:
 
 ```bash
-accelerate launch train_accelerate.py \
+CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch train_accelerate.py \
   --dataset mit-states \
   --clip_model ViT-L/14 \
   --experiment_name csp \
