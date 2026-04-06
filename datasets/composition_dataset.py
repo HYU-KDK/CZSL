@@ -70,9 +70,12 @@ class ImageLoader:
 
     def __call__(self, img):
         file = '%s/%s' % (self.img_dir, img)
+        if not os.path.exists(file):
+            parent, filename = os.path.split(img)
+            parent = parent.replace('_', ' ')
+            file = '%s/%s/%s' % (self.img_dir, parent, filename)
         img = Image.open(file).convert('RGB')
         return img
-
 
 class CompositionDataset(Dataset):
     def __init__(
