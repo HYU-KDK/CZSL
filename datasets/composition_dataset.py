@@ -1,4 +1,3 @@
-import os
 from itertools import product
 
 import numpy as np
@@ -17,7 +16,7 @@ n_px = 224
 
 def transform_image(split="train", imagenet=False):
     if imagenet:
-        # from czslRepo.
+        # from czsl repo.
         mean, std = [0.485, 0.456, 0.406], [0.229, 0.224, 0.225]
         transform = Compose(
             [
@@ -71,10 +70,6 @@ class ImageLoader:
 
     def __call__(self, img):
         file = '%s/%s' % (self.img_dir, img)
-        if not os.path.exists(file):
-            parent, filename = os.path.split(img)
-            parent = parent.replace('_', ' ')
-            file = '%s/%s/%s' % (self.img_dir, parent, filename)
         img = Image.open(file).convert('RGB')
         return img
 
@@ -146,7 +141,7 @@ class CompositionDataset(Dataset):
                 self.attrs_by_obj_train[o].append(a)
 
     def get_split_info(self):
-        data = torch.load(self.root + '/metadata_{}.t7'.format(self.split), map_location='cpu')
+        data = torch.load(self.root + '/metadata_{}.t7'.format(self.split))
         train_data, val_data, test_data = [], [], []
         for instance in data:
             image, attr, obj, settype = instance['image'], instance[

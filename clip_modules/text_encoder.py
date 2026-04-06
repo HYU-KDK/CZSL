@@ -1,6 +1,5 @@
 import clip
 import torch
-from torch.utils.checkpoint import checkpoint
 
 
 class CustomTextEncoder(torch.nn.Module):
@@ -48,14 +47,7 @@ class CustomTextEncoder(torch.nn.Module):
             else text_features
         )
         x = x.permute(1, 0, 2)
-        
-        # Use gradient checkpointing to save memory
-        # self.transformer handles the layers
-        if self.training:
-            x = checkpoint(self.transformer, x, use_reentrant=False)
-        else:
-            x = self.transformer(x)
-            
+        x = self.transformer(x)
         x = x.permute(1, 0, 2)
         x = self.ln_final(x)
         tf = (
