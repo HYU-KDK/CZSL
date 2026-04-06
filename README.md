@@ -46,6 +46,26 @@ python -u train.py \
 You can replace `--dataset` with `{mit-states, ut-zappos, cgqa}`.
 The best hyperparameters are included in the paper.
 
+### Multi-GPU Distributed Training
+To run the training across multiple GPUs using Hugging Face's `accelerate` library, ensure you have initialized your environment with `conda activate CZSL` (or your preferred environment). Then use the `accelerate launch` command with the new `train_accelerate.py` script:
+
+```bash
+accelerate launch train_accelerate.py \
+  --dataset mit-states \
+  --clip_model ViT-L/14 \
+  --experiment_name csp \
+  --seed 0 \
+  --epochs 20 \
+  --lr 5e-05 \
+  --attr_dropout 0.3 \
+  --weight_decay 0.00001 \
+  --train_batch_size 64 \
+  --gradient_accumulation_steps 2 \
+  --context_length 8 \
+  --save_path data/model/mit-states/sample_model_accelerate \
+  --save_every_n 1
+```
+
 ## Evaluation
 We evaluate our models in two settings: closed-world and open-world.
 ### Closed-World Evaluation
