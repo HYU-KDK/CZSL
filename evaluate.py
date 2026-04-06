@@ -845,6 +845,6 @@ if __name__ == "__main__":
             result_path = config.soft_embeddings[:-2] + "closed.json"
 
         with open(result_path, 'w+') as fp:
-            json.dump(results, fp)
+            json.dump(results, fp, indent=4)
 
     print("done!")
