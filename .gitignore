@@ -136,3 +136,5 @@ checkpoint/
 logs/
 *.pt
 *.pth
+GEMINI.md
+*.pdf

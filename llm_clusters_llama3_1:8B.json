@@ -1,0 +1,1513 @@
+{
+    "clusters": {
+        "Natural World": [
+            "animal",
+            "apple",
+            "banana",
+            "bear",
+            "berry",
+            "boulder",
+            "branch",
+            "bush",
+            "canyon",
+            "cliff",
+            "cloud",
+            "coast",
+            "desert",
+            "dirt",
+            "elephant",
+            "fig",
+            "fish",
+            "flame",
+            "flower",
+            "forest",
+            "fruit",
+            "garlic",
+            "grass",
+            "iguana",
+            "jungle",
+            "leaf",
+            "lemon",
+            "moss",
+            "mountain",
+            "mud",
+            "nut",
+            "ocean",
+            "orange",
+            "pear",
+            "persimmon",
+            "plant",
+            "pond",
+            "potato",
+            "redwood",
+            "river",
+            "rock",
+            "sand",
+            "sea",
+            "shell",
+            "snake",
+            "snow",
+            "stream",
+            "tree",
+            "trunk",
+            "valley",
+            "vegetable",
+            "water",
+            "wave",
+            "well",
+            "wood"
+        ],
+        "Food and Drink": [
+            "apple",
+            "banana",
+            "bean",
+            "beef",
+            "berry",
+            "bread",
+            "cake",
+            "candy",
+            "cheese",
+            "chicken",
+            "chocolate",
+            "coffee",
+            "cookie",
+            "eggs",
+            "fig",
+            "garlic",
+            "lemon",
+            "meat",
+            "milk",
+            "nut",
+            "orange",
+            "pear",
+            "persimmon",
+            "pizza",
+            "potato",
+            "salmon",
+            "sandwich",
+            "sauce",
+            "soup",
+            "sugar",
+            "tea",
+            "tomato"
+        ],
+        "Man-Made Objects": [
+            "aluminum",
+            "armor",
+            "bag",
+            "ball",
+            "balloon",
+            "bottle",
+            "box",
+            "brass",
+            "bridge",
+            "bubble",
+            "bucket",
+            "building",
+            "bus",
+            "cabinet",
+            "camera",
+            "candle",
+            "car",
+            "card",
+            "chair",
+            "clock",
+            "computer",
+            "concrete",
+            "cord",
+            "cotton",
+            "desk",
+            "diamond",
+            "fabric",
+            "fan",
+            "fence",
+            "fire",
+            "frame",
+            "garage",
+            "glasses",
+            "granite",
+            "handle",
+            "hat",
+            "highway",
+            "house",
+            "igloo",
+            "jacket",
+            "jewelry",
+            "key",
+            "keyboard",
+            "kitchen",
+            "knife",
+            "laptop",
+            "lead",
+            "library",
+            "lightbulb",
+            "log",
+            "mat",
+            "metal",
+            "mirror",
+            "necklace",
+            "newspaper",
+            "oil",
+            "paint",
+            "palm",
+            "pants",
+            "paper",
+            "phone",
+            "plate",
+            "plastic",
+            "pot",
+            "ring",
+            "road",
+            "rope",
+            "rubber",
+            "screw",
+            "shirt",
+            "shoes",
+            "shorts",
+            "shower",
+            "silk",
+            "sky",
+            "smoke",
+            "steel",
+            "steps",
+            "stone",
+            "street",
+            "table",
+            "tile",
+            "tire",
+            "toilet",
+            "tool",
+            "tower",
+            "toy",
+            "trail",
+            "truck",
+            "tube",
+            "vacuum",
+            "wall",
+            "wire",
+            "wood",
+            "wool"
+        ],
+        "Clothing and Accessories": [
+            "bag",
+            "belt",
+            "bracelet",
+            "coat",
+            "dress",
+            "fabric",
+            "glasses",
+            "hat",
+            "jacket",
+            "jewelry",
+            "necklace",
+            "pants",
+            "ring",
+            "shirt",
+            "shoes",
+            "shorts",
+            "silk",
+            "tie",
+            "wool"
+        ],
+        "Furniture and Decor": [
+            "bed",
+            "book",
+            "bowl",
+            "box",
+            "chair",
+            "clock",
+            "couch",
+            "desk",
+            "frame",
+            "furniture",
+            "glasses",
+            "handle",
+            "kitchen",
+            "lamp",
+            "mat",
+            "mirror",
+            "plate",
+            "pot",
+            "ring",
+            "table",
+            "tile",
+            "toilet",
+            "tool",
+            "tower",
+            "vacuum",
+            "wall",
+            "wire"
+        ],
+        "Tools and Equipment": [
+            "blade",
+            "bottle",
+            "bucket",
+            "cable",
+            "camera",
+            "candle",
+            "cord",
+            "cotton",
+            "fan",
+            "fire",
+            "frame",
+            "gear",
+            "handle",
+            "igloo",
+            "key",
+            "keyboard",
+            "knife",
+            "laptop",
+            "lead",
+            "log",
+            "mat",
+            "metal",
+            "mirror",
+            "necklace",
+            "newspaper",
+            "oil",
+            "paint",
+            "palm",
+            "phone",
+            "plate",
+            "plastic",
+            "pot",
+            "ring",
+            "road",
+            "rope",
+            "rubber",
+            "screw",
+            "shirt",
+            "shoes",
+            "shorts",
+            "shower",
+            "silk",
+            "sky",
+            "smoke",
+            "steel",
+            "steps",
+            "stone",
+            "street",
+            "table",
+            "tile",
+            "tire",
+            "toilet",
+            "tool",
+            "tower",
+            "toy",
+            "trail",
+            "truck",
+            "tube",
+            "vacuum",
+            "wall",
+            "wire",
+            "wood",
+            "wool"
+        ],
+        "Vehicles and Transportation": [
+            "bike",
+            "boat",
+            "bus",
+            "car",
+            "highway",
+            "igloo",
+            "key",
+            "laptop",
+            "phone",
+            "road",
+            "rope",
+            "rubber",
+            "screw",
+            "shirt",
+            "shoes",
+            "shorts",
+            "shower",
+            "silk",
+            "sky",
+            "smoke",
+            "steel",
+            "steps",
+            "stone",
+            "street",
+            "table",
+            "tile",
+            "tire",
+            "toilet",
+            "tool",
+            "tower",
+            "toy",
+            "trail",
+            "truck",
+            "tube",
+            "vacuum",
+            "wall",
+            "wire",
+            "wood",
+            "wool"
+        ],
+        "Structures and Architecture": [
+            "basement",
+            "bathroom",
+            "bay",
+            "beach",
+            "bridge",
+            "building",
+            "cabinet",
+            "castle",
+            "cave",
+            "ceiling",
+            "church",
+            "city",
+            "cliff",
+            "column",
+            "concrete",
+            "creek",
+            "deck",
+            "desert",
+            "dirt",
+            "farm",
+            "fence",
+            "field",
+            "forest",
+            "frame",
+            "garden",
+            "gate",
+            "granite",
+            "ground",
+            "handle",
+            "highway",
+            "house",
+            "igloo",
+            "jungle",
+            "key",
+            "kitchen",
+            "lake",
+            "library",
+            "lightbulb",
+            "log",
+            "mat",
+            "metal",
+            "mirror",
+            "necklace",
+            "newspaper",
+            "oil",
+            "paint",
+            "palm",
+            "paper",
+            "phone",
+            "plate",
+            "plastic",
+            "pot",
+            "ring",
+            "road",
+            "rope",
+            "rubber",
+            "screw",
+            "shirt",
+            "shoes",
+            "shorts",
+            "shower",
+            "silk",
+            "sky",
+            "smoke",
+            "steel",
+            "steps",
+            "stone",
+            "street",
+            "table",
+            "tile",
+            "tire",
+            "toilet",
+            "tool",
+            "tower",
+            "toy",
+            "trail",
+            "truck",
+            "tube",
+            "vacuum",
+            "wall",
+            "wire",
+            "wood",
+            "wool"
+        ],
+        "Miscellaneous": [
+            "bubble",
+            "candy",
+            "chocolate",
+            "coin",
+            "diamond",
+            "egg",
+            "flame",
+            "garlic",
+            "ice",
+            "lemon",
+            "lightning",
+            "log",
+            "milk",
+            "nut",
+            "oil",
+            "paint",
+            "paper",
+            "phone",
+            "plastic",
+            "pot",
+            "ring",
+            "sauce",
+            "screw",
+            "shirt",
+            "shoes",
+            "shorts",
+            "shower",
+            "silk",
+            "sky",
+            "smoke",
+            "steel",
+            "steps",
+            "stone",
+            "street",
+            "table",
+            "tile",
+            "tire",
+            "toilet",
+            "tool",
+            "tower",
+            "toy",
+            "trail",
+            "truck",
+            "tube",
+            "vacuum",
+            "wall",
+            "wire",
+            "wood",
+            "wool"
+        ],
+        "miscellaneous": [
+            "dust",
+            "clothes",
+            "door",
+            "basket",
+            "room",
+            "hose",
+            "paste",
+            "seafood",
+            "penny",
+            "ceramic",
+            "pie",
+            "sword",
+            "pasta",
+            "tiger",
+            "roof",
+            "cat",
+            "shore",
+            "tulip",
+            "island",
+            "clay",
+            "horse",
+            "roots",
+            "foam",
+            "chains",
+            "envelope",
+            "drum",
+            "nest",
+            "coal",
+            "floor",
+            "velvet",
+            "glass",
+            "bronze",
+            "pool",
+            "dog",
+            "gemstone",
+            "ribbon",
+            "window",
+            "salad",
+            "wheel",
+            "thread",
+            "wax",
+            "butter",
+            "town",
+            "copper",
+            "carpet"
+        ]
+    },
+    "obj_to_cluster": {
+        "animal": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "apple": {
+            "cluster_idx": 1,
+            "cluster_name": "Food and Drink"
+        },
+        "banana": {
+            "cluster_idx": 1,
+            "cluster_name": "Food and Drink"
+        },
+        "bear": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "berry": {
+            "cluster_idx": 1,
+            "cluster_name": "Food and Drink"
+        },
+        "boulder": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "branch": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "bush": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "canyon": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "cliff": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "cloud": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "coast": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "desert": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "dirt": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "elephant": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "fig": {
+            "cluster_idx": 1,
+            "cluster_name": "Food and Drink"
+        },
+        "fish": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "flame": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "flower": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "forest": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "fruit": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "garlic": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "iguana": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "jungle": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "leaf": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "lemon": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "moss": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "mountain": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "mud": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "nut": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "ocean": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "orange": {
+            "cluster_idx": 1,
+            "cluster_name": "Food and Drink"
+        },
+        "pear": {
+            "cluster_idx": 1,
+            "cluster_name": "Food and Drink"
+        },
+        "persimmon": {
+            "cluster_idx": 1,
+            "cluster_name": "Food and Drink"
+        },
+        "plant": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "pond": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "potato": {
+            "cluster_idx": 1,
+            "cluster_name": "Food and Drink"
+        },
+        "redwood": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "river": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "rock": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "sand": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "sea": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "shell": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "snake": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "snow": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "stream": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "tree": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "valley": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "vegetable": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "water": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "wave": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "well": {
+            "cluster_idx": 0,
+            "cluster_name": "Natural World"
+        },
+        "wood": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "bean": {
+            "cluster_idx": 1,
+            "cluster_name": "Food and Drink"
+        },
+        "beef": {
+            "cluster_idx": 1,
+            "cluster_name": "Food and Drink"
+        },
+        "bread": {
+            "cluster_idx": 1,
+            "cluster_name": "Food and Drink"
+        },
+        "cake": {
+            "cluster_idx": 1,
+            "cluster_name": "Food and Drink"
+        },
+        "candy": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "cheese": {
+            "cluster_idx": 1,
+            "cluster_name": "Food and Drink"
+        },
+        "chicken": {
+            "cluster_idx": 1,
+            "cluster_name": "Food and Drink"
+        },
+        "chocolate": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "coffee": {
+            "cluster_idx": 1,
+            "cluster_name": "Food and Drink"
+        },
+        "cookie": {
+            "cluster_idx": 1,
+            "cluster_name": "Food and Drink"
+        },
+        "eggs": {
+            "cluster_idx": 1,
+            "cluster_name": "Food and Drink"
+        },
+        "meat": {
+            "cluster_idx": 1,
+            "cluster_name": "Food and Drink"
+        },
+        "milk": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "pizza": {
+            "cluster_idx": 1,
+            "cluster_name": "Food and Drink"
+        },
+        "salmon": {
+            "cluster_idx": 1,
+            "cluster_name": "Food and Drink"
+        },
+        "sandwich": {
+            "cluster_idx": 1,
+            "cluster_name": "Food and Drink"
+        },
+        "sauce": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "soup": {
+            "cluster_idx": 1,
+            "cluster_name": "Food and Drink"
+        },
+        "sugar": {
+            "cluster_idx": 1,
+            "cluster_name": "Food and Drink"
+        },
+        "tea": {
+            "cluster_idx": 1,
+            "cluster_name": "Food and Drink"
+        },
+        "tomato": {
+            "cluster_idx": 1,
+            "cluster_name": "Food and Drink"
+        },
+        "aluminum": {
+            "cluster_idx": 2,
+            "cluster_name": "Man-Made Objects"
+        },
+        "armor": {
+            "cluster_idx": 2,
+            "cluster_name": "Man-Made Objects"
+        },
+        "bag": {
+            "cluster_idx": 3,
+            "cluster_name": "Clothing and Accessories"
+        },
+        "ball": {
+            "cluster_idx": 2,
+            "cluster_name": "Man-Made Objects"
+        },
+        "balloon": {
+            "cluster_idx": 2,
+            "cluster_name": "Man-Made Objects"
+        },
+        "bottle": {
+            "cluster_idx": 5,
+            "cluster_name": "Tools and Equipment"
+        },
+        "box": {
+            "cluster_idx": 4,
+            "cluster_name": "Furniture and Decor"
+        },
+        "brass": {
+            "cluster_idx": 2,
+            "cluster_name": "Man-Made Objects"
+        },
+        "bridge": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "bubble": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "bucket": {
+            "cluster_idx": 5,
+            "cluster_name": "Tools and Equipment"
+        },
+        "building": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "bus": {
+            "cluster_idx": 6,
+            "cluster_name": "Vehicles and Transportation"
+        },
+        "cabinet": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "camera": {
+            "cluster_idx": 5,
+            "cluster_name": "Tools and Equipment"
+        },
+        "candle": {
+            "cluster_idx": 5,
+            "cluster_name": "Tools and Equipment"
+        },
+        "car": {
+            "cluster_idx": 6,
+            "cluster_name": "Vehicles and Transportation"
+        },
+        "card": {
+            "cluster_idx": 2,
+            "cluster_name": "Man-Made Objects"
+        },
+        "chair": {
+            "cluster_idx": 4,
+            "cluster_name": "Furniture and Decor"
+        },
+        "clock": {
+            "cluster_idx": 4,
+            "cluster_name": "Furniture and Decor"
+        },
+        "computer": {
+            "cluster_idx": 2,
+            "cluster_name": "Man-Made Objects"
+        },
+        "concrete": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "cord": {
+            "cluster_idx": 5,
+            "cluster_name": "Tools and Equipment"
+        },
+        "cotton": {
+            "cluster_idx": 5,
+            "cluster_name": "Tools and Equipment"
+        },
+        "desk": {
+            "cluster_idx": 4,
+            "cluster_name": "Furniture and Decor"
+        },
+        "diamond": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "fabric": {
+            "cluster_idx": 3,
+            "cluster_name": "Clothing and Accessories"
+        },
+        "fan": {
+            "cluster_idx": 5,
+            "cluster_name": "Tools and Equipment"
+        },
+        "fence": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "fire": {
+            "cluster_idx": 5,
+            "cluster_name": "Tools and Equipment"
+        },
+        "frame": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "garage": {
+            "cluster_idx": 2,
+            "cluster_name": "Man-Made Objects"
+        },
+        "glasses": {
+            "cluster_idx": 4,
+            "cluster_name": "Furniture and Decor"
+        },
+        "granite": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "handle": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "hat": {
+            "cluster_idx": 3,
+            "cluster_name": "Clothing and Accessories"
+        },
+        "highway": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "house": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "jacket": {
+            "cluster_idx": 3,
+            "cluster_name": "Clothing and Accessories"
+        },
+        "jewelry": {
+            "cluster_idx": 3,
+            "cluster_name": "Clothing and Accessories"
+        },
+        "key": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "keyboard": {
+            "cluster_idx": 5,
+            "cluster_name": "Tools and Equipment"
+        },
+        "kitchen": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "knife": {
+            "cluster_idx": 5,
+            "cluster_name": "Tools and Equipment"
+        },
+        "laptop": {
+            "cluster_idx": 6,
+            "cluster_name": "Vehicles and Transportation"
+        },
+        "lead": {
+            "cluster_idx": 5,
+            "cluster_name": "Tools and Equipment"
+        },
+        "library": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "lightbulb": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "log": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "mat": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "metal": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "mirror": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "necklace": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "newspaper": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "oil": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "paint": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "palm": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "pants": {
+            "cluster_idx": 3,
+            "cluster_name": "Clothing and Accessories"
+        },
+        "paper": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "phone": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "plate": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "plastic": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "pot": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "ring": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "road": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "rope": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "rubber": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "screw": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "shirt": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "shoes": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "shorts": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "shower": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "silk": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "sky": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "smoke": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "steel": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "steps": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "stone": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "street": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "table": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "tile": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "tire": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "tower": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "toy": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "trail": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "truck": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "tube": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "vacuum": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "wall": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "wire": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "wool": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "belt": {
+            "cluster_idx": 3,
+            "cluster_name": "Clothing and Accessories"
+        },
+        "bracelet": {
+            "cluster_idx": 3,
+            "cluster_name": "Clothing and Accessories"
+        },
+        "coat": {
+            "cluster_idx": 3,
+            "cluster_name": "Clothing and Accessories"
+        },
+        "dress": {
+            "cluster_idx": 3,
+            "cluster_name": "Clothing and Accessories"
+        },
+        "tie": {
+            "cluster_idx": 3,
+            "cluster_name": "Clothing and Accessories"
+        },
+        "bed": {
+            "cluster_idx": 4,
+            "cluster_name": "Furniture and Decor"
+        },
+        "book": {
+            "cluster_idx": 4,
+            "cluster_name": "Furniture and Decor"
+        },
+        "bowl": {
+            "cluster_idx": 4,
+            "cluster_name": "Furniture and Decor"
+        },
+        "furniture": {
+            "cluster_idx": 4,
+            "cluster_name": "Furniture and Decor"
+        },
+        "blade": {
+            "cluster_idx": 5,
+            "cluster_name": "Tools and Equipment"
+        },
+        "cable": {
+            "cluster_idx": 5,
+            "cluster_name": "Tools and Equipment"
+        },
+        "gear": {
+            "cluster_idx": 5,
+            "cluster_name": "Tools and Equipment"
+        },
+        "bike": {
+            "cluster_idx": 6,
+            "cluster_name": "Vehicles and Transportation"
+        },
+        "boat": {
+            "cluster_idx": 6,
+            "cluster_name": "Vehicles and Transportation"
+        },
+        "basement": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "bathroom": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "bay": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "beach": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "castle": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "cave": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "ceiling": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "church": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "city": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "column": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "creek": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "deck": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "farm": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "field": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "garden": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "gate": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "ground": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "lake": {
+            "cluster_idx": 7,
+            "cluster_name": "Structures and Architecture"
+        },
+        "coin": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "ice": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "lightning": {
+            "cluster_idx": 8,
+            "cluster_name": "Miscellaneous"
+        },
+        "dust": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "clothes": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "door": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "basket": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "room": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "hose": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "paste": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "seafood": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "penny": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "ceramic": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "pie": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "sword": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "pasta": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "tiger": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "roof": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "cat": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "shore": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "tulip": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "island": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "clay": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "horse": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "roots": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "foam": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "chains": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "envelope": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "drum": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "nest": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "coal": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "floor": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "velvet": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "glass": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "bronze": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "pool": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "dog": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "gemstone": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "ribbon": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "window": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "salad": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "wheel": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "thread": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "wax": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "butter": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "town": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "copper": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        },
+        "carpet": {
+            "cluster_idx": 9,
+            "cluster_name": "miscellaneous"
+        }
+    }
+}
