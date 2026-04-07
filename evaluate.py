@@ -838,13 +838,19 @@ if __name__ == "__main__":
     if best_th is not None:
         results['best_threshold'] = best_th
 
-    if config.experiment_name != 'clip':
+    if config.experiment_name == 'clip':
+        clip_name = config.clip_model.replace('/', '_')
         if config.open_world:
-            result_path = config.soft_embeddings[:-2] + "open.calibrated.json"
+            result_path = f'clip_{config.dataset}_{clip_name}_open.calibrated.json'
         else:
-            result_path = config.soft_embeddings[:-2] + "closed.json"
+            result_path = f'clip_{config.dataset}_{clip_name}_closed.json'
+    else:
+        if config.open_world:
+            result_path = config.soft_embeddings[:-2] + 'open.calibrated.json'
+        else:
+            result_path = config.soft_embeddings[:-2] + 'closed.json'
 
-        with open(result_path, 'w+') as fp:
-            json.dump(results, fp, indent=4)
+    with open(result_path, 'w+') as fp:
+        json.dump(results, fp, indent=4)
 
     print("done!")
